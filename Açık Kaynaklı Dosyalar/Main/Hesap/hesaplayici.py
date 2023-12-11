@@ -9,7 +9,7 @@ class Hesaplayici:
 
     def HesaplamaYontemiAyarla(aylikmi) -> None:
         if(aylikmi):
-            Hesaplayici.zamanFormulu = 36500/12
+            Hesaplayici.zamanFormulu = 1200
             Zaman.zamanStr = "Ay"
         else:
             Hesaplayici.zamanFormulu = 36500
